@@ -1,0 +1,8 @@
+= Hanan Mehic
+:icons: font
+:toc:
+:sectnums:
+
+== Gh-pages
+- Um slides anzusehen, diese URL aufrufen
+https://hnnmehic.github.io/care-app/slides/demo.html

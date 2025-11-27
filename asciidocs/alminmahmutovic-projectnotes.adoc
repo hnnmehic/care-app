@@ -1,0 +1,4 @@
+= Almin Mahmutovic
+:toc:
+:sectnums:
+:icons: font
