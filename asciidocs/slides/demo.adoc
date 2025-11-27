@@ -19,7 +19,6 @@ endif::[]
 
 :title-slide-transition: zoom
 :title-slide-transition-speed: fast
-
 == SixToSix – Pflege leicht gemacht
 [.greenbg,background-opacity="0.75"]
 [.text-center]
@@ -27,8 +26,8 @@ Eine einfache App, die Pflege im Alltag **schneller und leichter** macht.
 
 
 
-== 1. Ist-Zustand
 [.greenbg,background-opacity="0.45"]
+== 1. Ist-Zustand
 image::pflegedokumentation.png[background, size="cover"]
 
 * Pflege wird oft **mit Papier und Stift** dokumentiert
@@ -38,8 +37,8 @@ image::pflegedokumentation.png[background, size="cover"]
 
 
 
-== 2. Problemstellung
 [.greenbg,background-opacity="0.45"]
+== 2. Problemstellung
 image::vergessen.png[background, size="cover"]
 
 * Die Dokumentation ist **unübersichtlich**
@@ -49,9 +48,9 @@ image::vergessen.png[background, size="cover"]
 
 
 
-== 3. Soll-Zustand
 [.greenbg,background-opacity="0.45"]
-image::helfen.png[background, size="cover"]  // jetzt fullscreen
+== 3. Soll-Zustand
+image::helfen.png[background, size="cover"]
 
 * Eine App, die **alles an einem Ort** sammelt
 * Pflegeeinträge schnell und einfach speichern
@@ -60,8 +59,8 @@ image::helfen.png[background, size="cover"]  // jetzt fullscreen
 
 
 
-== 4. Aufgabenstellung
 [.greenbg,background-opacity="0.45"]
+== 4. Aufgabenstellung
 image::pflegeapp.png[background, size="cover"]
 
 * Eine einfache App entwickeln, die pflegende Angehörige unterstützt
@@ -72,8 +71,8 @@ image::pflegeapp.png[background, size="cover"]
 
 
 
-== 5. Vision
 [.greenbg,background-opacity="0.85"]
+== 5. Vision
 [.text-center]
 SixToSix soll den Pflegealltag **vereinfachen**
 und den Menschen im Alltag **mehr Zeit und Ruhe** geben.

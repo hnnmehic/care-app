@@ -10,8 +10,9 @@
     font-size: larger;
 }
 
-.reveal .lightbg { background: rgba(76, 159, 30, 0.82); }
 
-.reveal .slide-background.greenbg {
-    background-color: rgba(38, 110, 75, 0.85); /* Dunkles Pflegegrün */
+/* funktioniert sicher für Asciidoctor Reveal.js */
+.reveal .slide-background.greenbg,
+.reveal .slide-background-content.greenbg {
+    background-color: rgba(38, 110, 75, 0.85) !important;
 }
