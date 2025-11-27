@@ -4,7 +4,7 @@ firstname lastname
 ifndef::imagesdir[:imagesdir: images]
 :icons: font
 :sectnums:    // Nummerierung der Überschriften / section numbering
-:toc: left
+
 
 
 //Need this blank line after ifdef, don't know why...

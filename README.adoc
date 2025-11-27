@@ -1,13 +1,12 @@
-= asciidoctor-html-template
-Thomas Stütz
+= SixToSix
+Hanan Mehic, Almin Mahmutovic
 1.0.0, {docdate}
 :imagesdir: img
 :icons: font
-:sectnums:    // Nummerierung der Überschriften / section numbering
-// :toc:
-// :toclevels: 1
+:sectnums:
+:toc:
+:toclevels: 1
 :experimental:
-//https://gist.github.com/dcode/0cfbf2699a1fe9b46ff04c41721dda74?permalink_comment_id=3948218
 ifdef::env-github[]
 :tip-caption: :bulb:
 :note-caption: :information_source:
@@ -16,78 +15,32 @@ ifdef::env-github[]
 :warning-caption: :warning:
 endif::[]
 
-image::https://img.shields.io/badge/version-1.0.0-blue[]
+[quote, SixToSix]
+____
+:family: Six to Six ist eine digitale Unterstützung für pflegende Angehörige, die Tagesplanung,
+Pflegedokumentation und Erinnerungen in einer einfachen, intuitiven App vereint.
+____
 
-== doc-as-code
+== Hauptfunktionen
+icon:users[] *Patientenverwaltung* (Name, Alter, Pflegegrad, Ansprechpartner)
 
-=== Overview
+icon:plus-square[] *Medikamentenplan* pro Patient
 
-The purpose of this template is to convert adoc-Files to html-Files
-These files are divided in html-documents and html-slides. The slides are rendered using https://revealjs.com/[revealjs^].
+icon:calendar[] *Aufgaben- und Terminplanung* für Pflegekräfte
 
-The convertion of the adoc-files is processed in a docker-container.
+icon:file-text[] *Dokumentation* von Pflegeaktivitäten
 
+icon:shield[] *Benutzerverwaltung* (z. B. Admin / Pflegekraft)
 
-image::/img/adoc-to-html.png[]
-
-=== Usage
-
-==== Initial Configuration
-
-* After templating this repo commit and push the demo page
-
-* Set Settings - Pages - Branch: gh-pages - Folder: / (root)
-+
-[%collapsible]
-====
-image::/img/permissions-for-asciidoc-2.png[]
-====
-
-==== Accessing the Website(s) for docs
-
-* https://*<github-repo-owner>*.github.io/*<github-repo-name>*
-
-** ie https://htl-leonding-college.github.io/asciidoctor-html-template
-
-==== Accessing the Website(s) for slides
-
-* https://*<github-repo-owner>*.github.io/*<github-repo-name>*/demo/*<file-name>*
-
-** ie https://htl-leonding-college.github.io/asciidoctor-html-template/slides/demo.html
+== Technologiestack
+- Lorem ipsum
 
 
+== Zielgruppe
+icon:user[] *Pflegekräfte*
 
-==== Remote Rendering by github-actions
+icon:users[] *Angehörige*
 
-When commiting and pushing the adoc-files into github, they are automatically rendered by github-actions to html in a (new) branch `gh-pages`. All sub-folders with adoc-files are included.
+icon:home[] *Gesundheitseinrichtungen*
 
-==== Local Rendering
-
-Because the rendering with gh-actions on a gh-runner takes time, it is possible to create a local dist-folder with
-
-[source,bash]
-----
-./local-convert.sh
-----
-
-IMPORTANT: You need docker installed locally.
-
-You even can publish your locally created html-slides with
-
-[source,bash]
-----
-./publish.sh
-----
-
-
-
-=== Customizing
-
-IMPORTANT: You should not change the scripts in the `asciidocs`-folder, unless you really know what to do.
-
-* The script are available in the `asciidocs`-Folder. So you could change the options for the asciidoctor-engine or the version of revealjs.
-
-=== Docs
-** https://docs.asciidoctor.org/asciidoc/latest/syntax-quick-reference/[Asciidoctor Quick Reference]
-** https://asciidoctor.org/docs/asciidoc-writers-guide/[AsciiDoc Writer’s Guide^]
-** https://docs.asciidoctor.org/reveal.js-converter/latest/converter/features/[Slides with Asciidoctor for revealjs^]
+icon:ambulance[] *Mobile Pflegedienste*
