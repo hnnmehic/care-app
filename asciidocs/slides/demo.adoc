@@ -1,5 +1,5 @@
 = SixToSix – Pitch
-:author: Hanan Mehic
+:author: Hanan Mehic, Almin Mahmutovic
 :revnumber: 1.0
 :revdate: {docdate}
 :doctype: article
@@ -21,12 +21,14 @@ endif::[]
 :title-slide-transition-speed: fast
 
 == SixToSix – Pflege leicht gemacht
+[.greenbg,background-opacity="0.75"]
 [.text-center]
 Eine einfache App, die Pflege im Alltag **schneller und leichter** macht.
 
 
+
 == 1. Ist-Zustand
-[.lightbg,background-opacity="0.6"]
+[.greenbg,background-opacity="0.45"]
 image::pflegedokumentation.png[background, size="cover"]
 
 * Pflege wird oft **mit Papier und Stift** dokumentiert
@@ -37,8 +39,8 @@ image::pflegedokumentation.png[background, size="cover"]
 
 
 == 2. Problemstellung
-[.lightbg,background-opacity="0.7"]
-image::vergessen.png[background, size="contain"]
+[.greenbg,background-opacity="0.45"]
+image::vergessen.png[background, size="cover"]
 
 * Die Dokumentation ist **unübersichtlich**
 * Dinge werden leicht **vergessen**
@@ -48,8 +50,8 @@ image::vergessen.png[background, size="contain"]
 
 
 == 3. Soll-Zustand
-[.lightbg,background-opacity="0.7"]
-image::helfen.png[background, size="contain"]
+[.greenbg,background-opacity="0.45"]
+image::helfen.png[background, size="cover"]  // jetzt fullscreen
 
 * Eine App, die **alles an einem Ort** sammelt
 * Pflegeeinträge schnell und einfach speichern
@@ -59,8 +61,9 @@ image::helfen.png[background, size="contain"]
 
 
 == 4. Aufgabenstellung
-[.lightbg,background-opacity="0.7"]
-image::pflegeapp.png[background, size="contain"]
+[.greenbg,background-opacity="0.45"]
+image::pflegeapp.png[background, size="cover"]
+
 * Eine einfache App entwickeln, die pflegende Angehörige unterstützt
 * Funktionen:
 **Pflegedokumentation**, **Tagesplanung**, **Erinnerungen**, **wichtige Hinweise**
@@ -68,7 +71,9 @@ image::pflegeapp.png[background, size="contain"]
 * Ziel: **Zeit sparen**, **Stress reduzieren**
 
 
+
 == 5. Vision
+[.greenbg,background-opacity="0.85"]
 [.text-center]
 SixToSix soll den Pflegealltag **vereinfachen**
 und den Menschen im Alltag **mehr Zeit und Ruhe** geben.

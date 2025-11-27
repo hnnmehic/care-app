@@ -10,4 +10,8 @@
     font-size: larger;
 }
 
-.reveal .lightbg { background: #fff8f1d0; }
+.reveal .lightbg { background: rgba(76, 159, 30, 0.82); }
+
+.reveal .slide-background.greenbg {
+    background-color: rgba(38, 110, 75, 0.85); /* Dunkles Pflegegrün */
+}
